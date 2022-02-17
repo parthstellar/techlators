@@ -1,0 +1,155 @@
+body {
+  margin: 0;
+}
+
+h5 {
+  font-size: 22px;
+}
+
+a{
+  color: #948d26;
+
+}
+
+/* Navigation Bar */
+
+.navigationBar {
+  background-color: #000;
+}
+
+.nav-item {
+  margin: auto 15px;
+}
+
+.navbar-brand {
+  margin-left: 50px;
+}
+
+
+/* Title Section */
+#title {}
+
+.titleHeading {
+  font-size: 3.75rem;
+  font-weight: 900;
+  margin-top: 30%;
+  margin-bottom: 0
+}
+
+.subTitle {
+  font-weight: bold;
+  font-size: 1.12rem;
+  line-height: 2;
+}
+
+.container-fluid {
+  padding: 0 0;
+  padding: 0 10%;
+}
+
+.btn {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 18px;
+  background: #948d26;
+  padding: 15px 30px 15px 30px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #948d26;
+  text-decoration: none;
+}
+
+/* Section About US */
+#aboutUs {
+  padding: 10% 10%;
+}
+
+.aboutUsTitle {
+  /* margin-top: 30 */
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+
+.line {
+  height: 1px;
+  background-color: #000;
+  margin-bottom: 5px;
+}
+
+.card {
+  border: 0;
+  margin: 2% auto;
+}
+
+.itemUsCountainer {
+  padding-left: 0;
+}
+
+.card-title {
+  font-weight: 500;
+}
+
+/* Our Services Section */
+#ourServices {
+  padding: 0 10% 5% 10%;
+}
+
+.ourServicesItemTitles {
+  font-size: 35px;
+  color: #948d26;
+  margin: 20px auto;
+}
+
+.ourServicesRow {
+  padding: 7% 0;
+}
+
+.card-text {
+  line-height: 1.7;
+}
+
+#contactUs {
+  padding: 0 10% 10% 10%;
+  text-align: center;
+}
+
+.contatactUSTitle{
+
+  font-size: 1.75rem;
+  font-weight: bold;
+  text-align: left;
+
+}
+
+.contactUsDescription{
+  padding-top: 1%;
+}
+
+@media (max-width:800px) {
+  .subTitle {
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.7;
+  }
+
+  .nav-item {
+    margin-left: 50px;
+    font-size: 1.1rem;
+  }
+
+  .navigationBar{
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .navbar-brand {
+    font-size: 1.3rem;
+  }
+
+}
